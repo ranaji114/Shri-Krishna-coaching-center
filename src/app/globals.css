@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Plus+Jakarta+Sans:ital,wght@0,300..800;1,300..800&family=Space+Grotesk:wght@400..700&display=swap');
+@import "tailwindcss";
+
+:root {
+  --bg-papyrus: #FAF8F5;
+  --bg-surface: #FFFFFF;
+  --color-primary: #18181B;
+  --color-secondary: #3F3F46;
+  --color-accent: #C48A2A;
+  --color-accent-hover: #A87420;
+  --color-text: #27272A;
+  --color-muted: #71717A;
+  --color-border: #E7E5E4;
+  --font-serif: 'Playfair Display', Georgia, serif;
+  --font-sans: 'Plus Jakarta Sans', system-ui, sans-serif;
+  --font-mono: 'Space Grotesk', monospace;
+}
+
+body {
+  background-color: var(--bg-papyrus);
+  color: var(--color-text);
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Editorial Typography */
+h1, h2, h3, h4, .font-editorial {
+  font-family: var(--font-serif);
+  letter-spacing: -0.02em;
+}
+
+.font-num {
+  font-family: var(--font-mono);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #FAF8F5;
+}
+::-webkit-scrollbar-thumb {
+  background: #D4D4D8;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #C48A2A;
+}
+
+/* Smooth Focus Ring */
+*:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 2px #FAF8F5, 0 0 0 4px #C48A2A;
+  border-radius: 6px;
+}
+
+/* Custom Glass Effect */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(231, 229, 228, 0.8);
+}
+
+.glass-nav {
+  background: rgba(250, 248, 245, 0.88);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-bottom: 1px solid rgba(231, 229, 228, 0.7);
+}
+
+/* 20px Corner Card Default */
+.card-20 {
+  border-radius: 20px;
+  background: #FFFFFF;
+  border: 1px solid #E7E5E4;
+  box-shadow: 0 10px 30px -10px rgba(24, 24, 27, 0.04);
+  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.3s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.3s ease;
+}
+
+.card-20:hover {
+  border-color: rgba(196, 138, 42, 0.4);
+  box-shadow: 0 20px 40px -15px rgba(24, 24, 27, 0.08);
+}
+
+/* Skeleton Shimmer */
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+.skeleton-shimmer {
+  background: linear-gradient(90deg, #f0ede6 25%, #e6e2d8 50%, #f0ede6 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.8s infinite;
+}
