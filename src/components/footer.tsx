@@ -104,7 +104,7 @@ export function Footer() {
               <li className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 text-[#C48A2A] shrink-0 mt-0.5" />
                 <span className="text-xs text-zinc-300 leading-relaxed">
-                  Mohan Book Depot, Mudila Bazar, Akhand Nagar Road, Kadipur, Sultanpur, Uttar Pradesh
+                  Mohan Book Depo, Mudila Bazar, Akhand Nagar Road, Kadipur, Sultanpur, Uttar Pradesh
                 </span>
               </li>
               <li className="flex items-center gap-3">
@@ -129,9 +129,21 @@ export function Footer() {
           </div>
         </div>
 
-        {/* Bottom Copyright & Admin shortcut */}
-        <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-zinc-500">
-          <p>© {new Date().getFullYear()} Shri Krishna Coaching Center. Handcrafted for Academic Distinction.</p>
+        {/* Bottom Copyright & Developer credit & Admin shortcut */}
+        <div className="pt-8 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-zinc-500">
+          <div className="space-y-1 text-center md:text-left">
+            <p>© {new Date().getFullYear()} Shri Krishna Coaching Center. All Rights Reserved.</p>
+            <p className="text-[11px] text-zinc-400">
+              Designed & Developed by{" "}
+              <span className="text-white font-semibold">Ankur Rana</span> •{" "}
+              <a
+                href="mailto:ranaankur442@gmail.com"
+                className="text-[#C48A2A] hover:underline font-medium transition-colors"
+              >
+                ranaankur442@gmail.com
+              </a>
+            </p>
+          </div>
 
           <div className="flex items-center gap-6">
             <Link href="/admission" className="hover:text-white transition-colors">

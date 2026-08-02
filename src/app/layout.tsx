@@ -56,7 +56,7 @@ const jsonLd = {
   ],
   address: {
     "@type": "PostalAddress",
-    streetAddress: "Mohan Book Depot, Mudila Bazar, Akhand Nagar Road",
+    streetAddress: "Mohan Book Depo, Mudila Bazar, Akhand Nagar Road",
     addressLocality: "Kadipur",
     addressRegion: "Sultanpur, Uttar Pradesh",
     postalCode: "228145",
