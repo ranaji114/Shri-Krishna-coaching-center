@@ -131,12 +131,12 @@ export const FACULTY_ROSTER = [
   {
     id: "priyanshu",
     name: "Priyanshu Singh Sir",
-    role: "Senior Science & Tech Faculty",
-    qualification: "B.Sc. (Physics & Chemistry)",
+    role: "Senior Science & Mathematics Faculty",
+    qualification: "B.Sc.",
     experience: "4+ Years Teaching Experience",
-    subjects: ["Physics", "Chemistry", "Biology"],
+    subjects: ["Physics", "Chemistry", "Mathematics"],
     photo: "/priyanshu-sir.png",
-    bio: "Priyanshu Singh Sir is renowned for breaking down complex physics numericals and organic chemistry reaction mechanisms into intuitive, visual concepts. His student-centric approach, weekly practice drills, and dedicated doubt clearance have helped dozens of students score 90%+ in board exams.",
+    bio: "Priyanshu Singh Sir is renowned for breaking down complex physics numericals, chemistry concepts, and mathematics problems into intuitive, visual steps. His student-centric approach, weekly practice drills, and dedicated doubt clearance have helped dozens of students score 90%+ in board exams.",
   },
 ];
 

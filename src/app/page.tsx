@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import React from "react";
 import Link from "next/link";
@@ -335,7 +335,75 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* 6. FACILITIES GRID */}
+      {/* 6. TOPPERS BANNER */}
+      <section className="max-w-[1440px] mx-auto px-6 md:px-12 space-y-10">
+        <Reveal direction="up">
+          <div className="text-center max-w-2xl mx-auto space-y-3">
+            <Badge variant="gold">Class 10 • Board Exam 2026</Badge>
+            <h2 className="text-3xl md:text-4xl font-bold font-editorial text-[#18181B]">
+              Our Toppers & Achievers
+            </h2>
+            <p className="text-sm text-zinc-600">
+              18+ students from Shri Krishna Coaching Center scored 76%–94% in UP Board Class 10 Examinations 2026. We are proud of every single one of them.
+            </p>
+          </div>
+        </Reveal>
+
+        <Reveal direction="up" delay={0.2}>
+          {/* Photo — clean, no overlay on top of image */}
+          <div className="rounded-[20px] overflow-hidden border-4 border-[#C48A2A] shadow-2xl">
+            <img
+              src="/toppers-2026.jpg"
+              alt="Shri Krishna Coaching Center - Class 10 Toppers 2026"
+              className="w-full h-auto object-contain block"
+            />
+          </div>
+          {/* Label below photo — never overlaps on any screen size */}
+          <div className="mt-3 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 px-1">
+            <div>
+              <span className="block text-[#C48A2A] text-[11px] font-bold uppercase tracking-widest">
+                Shri Krishna Coaching Center
+              </span>
+              <span className="block text-[#18181B] text-base font-bold font-editorial">
+                Class 10 Board Toppers — 2026
+              </span>
+            </div>
+            <div className="flex items-center gap-2 flex-wrap">
+              <span className="px-3 py-1.5 rounded-full bg-[#C48A2A] text-white text-xs font-bold shadow">
+                🏆 18+ Achievers
+              </span>
+              <span className="px-3 py-1.5 rounded-full bg-[#18181B] text-white text-xs font-bold">
+                Top Score: 94%
+              </span>
+            </div>
+          </div>
+        </Reveal>
+
+        {/* Stats Strip */}
+        <Reveal direction="up" delay={0.3}>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-4">
+            {[
+              { label: "Top Scorer", value: "94%", sub: "Ashika" },
+              { label: "Students Above 90%", value: "3+", sub: "Board 2026" },
+              { label: "Students Above 85%", value: "10+", sub: "Board 2026" },
+              { label: "Total Achievers", value: "18+", sub: "Class 10 Batch" },
+            ].map((stat) => (
+              <div
+                key={stat.label}
+                className="bg-white border border-[#E7E5E4] rounded-[16px] p-4 text-center shadow-sm space-y-0.5"
+              >
+                <span className="block text-2xl md:text-3xl font-bold font-num text-[#C48A2A]">
+                  {stat.value}
+                </span>
+                <span className="block text-[11px] md:text-xs font-bold text-[#18181B] leading-tight">{stat.label}</span>
+                <span className="block text-[10px] text-zinc-500">{stat.sub}</span>
+              </div>
+            ))}
+          </div>
+        </Reveal>
+      </section>
+
+      {/* 7. FACILITIES GRID - renamed from 6 */}
       <section className="max-w-[1440px] mx-auto px-6 md:px-12 space-y-12">
         <div className="text-center max-w-xl mx-auto space-y-2">
           <span className="text-xs font-bold uppercase tracking-widest text-[#C48A2A]">
