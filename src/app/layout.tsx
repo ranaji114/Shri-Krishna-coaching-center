@@ -43,6 +43,9 @@ export const metadata: Metadata = {
     locale: "en_IN",
     type: "website",
   },
+  verification: {
+    google: "feaa909227cc3c9b",
+  },
   icons: {
     icon: "/icon.png",
     shortcut: "/icon.png",
