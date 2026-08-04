@@ -173,7 +173,7 @@ npm run start
 
 ---
 
-## 👨‍💻 Developer & Author Credits
+## 👨‍💻 Developer & Author
 
 <div align="center">
 
