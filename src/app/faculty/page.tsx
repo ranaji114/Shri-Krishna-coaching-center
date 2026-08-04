@@ -7,8 +7,8 @@ import { FACULTY_ROSTER } from "@/lib/initial-data";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Faculty Roster | Shri Krishna Coaching Center",
-  description: "Meet our distinguished faculty: Krishna Sir (B.Com, LL.B.) & Priyanshu Singh Sir (B.Sc.). 5+ years of teaching experience in Kadipur & Sultanpur.",
+  title: "Faculty | Shri Krishna Coaching Center Kadipur",
+  description: "Meet Krishna Sir (B.Com, LL.B.) and Priyanshu Singh Sir (B.Sc.) — experienced faculty at Shri Krishna Coaching Center, Mudila Bazar, Kadipur, Sultanpur. 5+ years teaching Physics, Chemistry, Mathematics & English.",
 };
 
 export default function FacultyPage() {

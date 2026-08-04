@@ -7,8 +7,8 @@ import { COURSES_LIST } from "@/lib/initial-data";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Courses & Fee Structure | Shri Krishna Coaching Center",
-  description: "Explore coaching classes for Class 6 to 12 in Physics, Chemistry, Mathematics, Biology, and English Grammar. Flat fee of ₹250 per subject.",
+  title: "Courses & Fee Structure | Coaching Kadipur Sultanpur",
+  description: "Class 6 to 12 coaching in Physics, Chemistry, Mathematics, Biology, English Grammar at ₹250 per subject. Shri Krishna Coaching Center, Mudila Bazar, Kadipur, Sultanpur UP.",
 };
 
 const SUBJECTS_DETAIL = [

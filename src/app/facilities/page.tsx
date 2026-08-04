@@ -7,8 +7,8 @@ import { CheckCircle2, ArrowRight } from "lucide-react";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Campus Facilities | Shri Krishna Coaching Center",
-  description: "Discover our learning infrastructure: Whiteboard Teaching, Doubt Classes, Weekly/Monthly Tests, WhatsApp Support, Parking, and Ventilated Classrooms.",
+  title: "Campus Facilities | Shri Krishna Coaching Center Kadipur",
+  description: "Whiteboard teaching, doubt classes, weekly tests, monthly tests, WhatsApp support, study material, parking — all facilities at Shri Krishna Coaching Center, Kadipur, Sultanpur.",
 };
 
 export default function FacilitiesPage() {

@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: "/",
       disallow: ["/admin/", "/api/"],
     },
-    sitemap: "https://shrikrishnacoaching.com/sitemap.xml",
+    sitemap: "https://shri-krishna-coaching-center.vercel.app/sitemap.xml",
   };
 }

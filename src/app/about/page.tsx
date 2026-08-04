@@ -7,8 +7,8 @@ import { GraduationCap, Award, BookOpen, Target, HeartHandshake, CheckCircle2 } 
 import { FACULTY_ROSTER } from "@/lib/initial-data";
 
 export const metadata = {
-  title: "About Us | Shri Krishna Coaching Center",
-  description: "Learn about the founding story, mission, and vision of Shri Krishna Coaching Center established in 2021 by Krishna Sir (B.Com, LL.B.).",
+  title: "About Us | Shri Krishna Coaching Center Kadipur Sultanpur",
+  description: "Shri Krishna Coaching Center established 2021 by Krishna Sir (B.Com, LL.B.) at Mudila Bazar, Kadipur, Sultanpur UP. Affordable coaching at ₹250/subject for Classes 6 to 12.",
 };
 
 export default function AboutPage() {
